@@ -1,31 +1,16 @@
-# 🖐️ Hand Gesture Control System for Windows
+# Gesture-Based Desktop Controller
 
-A computer vision-based system to control mouse operations on a Windows PC using hand gestures. This project uses a webcam to detect hand movements and executes actions like moving the cursor, left-click, right-click, scroll, and more — all without touching the mouse!
+This project allows you to control your desktop using hand gestures via a webcam using Python, OpenCV, and MediaPipe.
 
-## 🎯 Features
+## Features:
+- Cursor control
+- Click (pinch gesture)
+- Scroll up/down
+- Open applications
+- Volume control (via finger distance)
 
-- Cursor movement with index finger
-- Left click using pinch gesture
-- Right click using three-finger gesture
-- Scroll using two-finger swipe gesture
-- Real-time hand tracking using **MediaPipe**
-- Supports customization of gestures
-
-## 📸 Demo
-
-> *(Add screenshots or a demo video link here if available)*
-
-## 🛠️ Technologies Used
-
-- Python
-- OpenCV
-- MediaPipe
-- PyAutoGUI
-
-## 📦 Requirements
-
-Install dependencies:
+## How to Run:
 
 ```bash
-pip install opencv-python mediapipe pyautogui
-# ML-project
+pip install -r requirements.txt
+python main.py
